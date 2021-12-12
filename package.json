@@ -1,0 +1,27 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "typescript学习记录",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugszhou/learn-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugszhou/learn-typescript/issues"
+  },
+  "homepage": "https://github.com/bugszhou/learn-typescript#readme",
+  "dependencies": {
+    "@types/jest": "^27.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.3"
+  }
+}

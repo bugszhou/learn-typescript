@@ -1,0 +1,6 @@
+{
+  "jest.autoRun": { "watch": true, "onStartup": ["all-tests"] },
+  "jest.debugMode": true,
+  "jest.enableCodeLens": true,
+  "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown", "pass", "skip"]
+}
