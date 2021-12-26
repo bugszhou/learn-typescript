@@ -39,6 +39,7 @@ describe("基础类型: symbol", () => {
     obj[symbol1] = "test";
     obj[symbol2] = "test1";
 
+    expect(symbol1).toBe(symbol2);
     expect(obj[symbol1]).toBe("test");
     expect(obj[symbol1]).toBe("test1");
     expect(obj[symbol2]).toBe("test1");
