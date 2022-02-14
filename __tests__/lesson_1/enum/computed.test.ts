@@ -12,4 +12,11 @@ describe("enum 语法", () => {
       name3 = ENUM_TYPE.name1,
     }
   });
+
+  it("动态枚举成员名称", () => {
+    const key = "name1";
+    enum ENUM_TYPE {
+      [key] = 2,
+    }
+  });
 });
